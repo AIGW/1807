@@ -6,3 +6,10 @@ elif name=="老王" and money<500:
 	print("穷逼王老五")
 else:
 	print("不知道")
+
+
+
+
+'''
+money = float(input("请输入金钱"))
+'''
