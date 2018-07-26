@@ -1,0 +1,13 @@
+def test():
+	name = "老郭"  #局部变量
+	print(name)
+
+test()
+
+
+
+
+
+def test1():
+	print(name)
+tes1()
