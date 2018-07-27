@@ -1,22 +1,43 @@
-'''
 def test(a):
+	a+=a #a=a+a
+	print(a)
+
+'''
+x = 1
+test(x)
+print(x)
+'''
+
+def test1(a):
+	a = a+a
+	print(a)
+
+'''
+x = 1
+test1(x)
+print(x)
+'''
+
+
+
+def test2(a):
 	a+=a
 	print(a) #[1,2,1,2]
-
+'''
 x = [1,2]
-test(x)
+test2(x)
 print(x)  #[1,2,1,2]
 
 '''
 
 
 
-def test1(a):
+def test3(a):
 	a=a+a
 	print(a) #[1,2,1,2]
 
 x = [1,2]
-test1(x)
+test3(x)
 print(x)  #[1,2]
 
 
