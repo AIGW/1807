@@ -1,0 +1,8 @@
+f = open("1.txt","w")
+f.write("超越梦想\n")
+f.write("超越梦想\n")
+f.write("超越梦想\n")
+f.write("超越梦想\n")
+f.write("超越梦想\n")
+f.write("超越梦想\n")
+f.close()
